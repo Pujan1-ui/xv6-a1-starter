@@ -146,10 +146,12 @@ UPROGS=\
 	$U/_grind\
 	$U/_wc\
 	$U/_zombie\
-	$U/_logstress\
-	$U/_forphan\
-	$U/_dorphan\
-	$U/_sync\
+	$U/_sleep\
+	$U/_find\
+  $U/_pingpong\
+  $U/_primes\
+  $U/_xargs\
+
 
 fs.img: mkfs/mkfs README $(UPROGS)
 	mkfs/mkfs fs.img README $(UPROGS)

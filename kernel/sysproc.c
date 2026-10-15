@@ -65,7 +65,7 @@ sys_sbrk(void)
 }
 
 uint64
-sys_pause(void)
+sys_sleep(void)
 {
   int n;
   uint ticks0;
